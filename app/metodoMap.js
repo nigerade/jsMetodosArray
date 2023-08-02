@@ -12,7 +12,4 @@ function aplicarDesconto(livros) {
 
     // retorna os livros com os descontos 
     return livrosComDesconto
-
-    // se não me engano essa função nem foi usada no projeto
-    // foi criado mais para demonstrar o método map
 }
