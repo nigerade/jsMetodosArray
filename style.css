@@ -23,14 +23,28 @@ body {
   text-align: center;
   width: 100%;
   background-color: var(--bg-color);
-  margin: 15px 15px;
+  margin: 1rem auto;
 }
 
-.banner {
-  background-image: url('/imagens/Banner-1.png');
-  background-repeat: no-repeat;
+#sec-text {
+  position: relative;
+  height: 15rem;
+  width: 100%;
+  background-color: #326589;
   background-size: cover;
-  height: 278px;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px 2px #353535;
+}
+
+.text-h1 {
+  font-size: 2rem;
+  padding-bottom: 2rem;
+  font-weight: bold;
 }
 
 .nav {
