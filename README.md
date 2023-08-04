@@ -30,6 +30,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Projeto desenvolvido durante o curso JavaScript: métodos de array pela Alura One. 
 Um projeto onde é puxado os dados de diversos Livros através de Métodos com Array no Javascript.
 
-Você pode ver o site neste link: [Javascript - Métodos de Array]()
+Você pode ver o site neste link: [Javascript - Métodos de Array](https://nigerade.github.io/jsMetodosArray/)
 
 --- 
