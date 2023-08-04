@@ -16,8 +16,7 @@ body {
 }
 
 .wrap {
-  width: 1280px;
-  margin: 0 auto;
+  margin: 1rem;
 }
 
 .header {
@@ -36,10 +35,19 @@ body {
 
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   height: 30px;
   margin: 4rem 0;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+@media (max-width: 420px) {
+  .wrap {
+    padding-bottom: 5rem;
+    transition: all .45s ease;
+  }
 }
 
 .btn {
@@ -65,8 +73,10 @@ body {
 
 .livros {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
+  margin: 5rem;
+  margin-top: 10rem;
 }
 
 .livro {
